@@ -10,8 +10,8 @@
     "dev": "webpack --watch & nodemon --watch public server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "aohiro",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.6.2",
     "@babel/preset-env": "^7.6.2",
