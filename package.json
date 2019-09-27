@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --mode development --hot --open",
     "build": "webpack",
     "build:watch": "webpack --watch",
-    "dev": "nodemon --watch public server.js",
+    "dev": "webpack --watch & nodemon --watch public server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
